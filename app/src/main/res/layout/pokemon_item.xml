@@ -18,6 +18,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="8dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp">
 
@@ -27,7 +28,7 @@
             android:layout_height="110dp"
             android:contentDescription="Pokemon Image"
             app:layout_constraintEnd_toStartOf="@+id/tv_name"
-            app:layout_constraintHorizontal_bias="0.066"
+            app:layout_constraintHorizontal_bias="0.050"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
